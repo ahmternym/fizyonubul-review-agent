@@ -1,0 +1,9 @@
+node_modules
+out/
+logs/
+reports/
+.env
+*.log
+.DS_Store
+serviceAccount*.json
+fixtures/diplomas/
