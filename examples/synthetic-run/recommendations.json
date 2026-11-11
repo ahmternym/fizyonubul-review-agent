@@ -1,0 +1,179 @@
+[
+  {
+    "uid": "syn-ap-01",
+    "decision": "approve",
+    "preset": null,
+    "suggestedRejectionReason": null,
+    "messageToApplicant": null,
+    "reasons": [
+      "Otomatik kontrollerde bulgu yok",
+      "Diploma okunaklı, ad eşleşiyor (Elif Demir)",
+      "Fizyoterapi ve Rehabilitasyon Bölümü, Kuzey Işık Üniversitesi, 2022"
+    ],
+    "diploma": {
+      "readable": true,
+      "nameOnDocument": "Elif Demir",
+      "university": "Kuzey Işık Üniversitesi",
+      "department": "Fizyoterapi ve Rehabilitasyon",
+      "graduationYear": 2022
+    },
+    "codeFindings": [],
+    "status": "awaiting_admin",
+    "createdAt": "2026-11-11T19:32:01.590Z"
+  },
+  {
+    "uid": "syn-ap-02",
+    "decision": "reject",
+    "preset": "identity",
+    "suggestedRejectionReason": "Kimlik / hesap bilgileri ile iletilen belge veya bilgiler eşleşmiyor. Merhaba, yüklediğiniz diplomadaki ad (Merve Kaya) hesabınızdaki adla (Mert Kaya) eşleşmediği için başvurunuzu onaylayamıyoruz. Lütfen kendi adınıza düzenlenmiş diploma veya mezuniyet belgenizi yükleyin.",
+    "messageToApplicant": "Merhaba, yüklediğiniz diplomadaki ad (Merve Kaya) hesabınızdaki adla (Mert Kaya) eşleşmediği için başvurunuzu onaylayamıyoruz. Lütfen kendi adınıza düzenlenmiş diploma veya mezuniyet belgenizi yükleyin.",
+    "reasons": [
+      "Diplomadaki ad 'Merve Kaya', başvurudaki ad 'Mert Kaya' – kimlik uyuşmuyor",
+      "Bölüm Fizyoterapi ve Rehabilitasyon, Ege Rüzgârı Üniversitesi, 2021",
+      "Yazım hatası ihtimali düşük görünse de admin teyit edebilir"
+    ],
+    "diploma": {
+      "readable": true,
+      "nameOnDocument": "Merve Kaya",
+      "university": "Ege Rüzgârı Üniversitesi",
+      "department": "Fizyoterapi ve Rehabilitasyon",
+      "graduationYear": 2021
+    },
+    "codeFindings": [],
+    "status": "awaiting_admin",
+    "createdAt": "2026-11-11T19:32:05.542Z"
+  },
+  {
+    "uid": "syn-ap-03",
+    "decision": "request_info",
+    "preset": "doc",
+    "suggestedRejectionReason": "Diploma veya bitirme belgesi okunamıyor, eksik veya geçersiz görünüyor. Merhaba, yüklediğiniz diploma görüntüsü çok bulanık olduğu için ad, üniversite, bölüm ve mezuniyet yılı okunamıyor. Lütfen diplomanızın veya mezuniyet belgenizin net, tamamı görünen bir fotoğrafını ya da taramasını yükleyin.",
+    "messageToApplicant": "Merhaba, yüklediğiniz diploma görüntüsü çok bulanık olduğu için ad, üniversite, bölüm ve mezuniyet yılı okunamıyor. Lütfen diplomanızın veya mezuniyet belgenizin net, tamamı görünen bir fotoğrafını ya da taramasını yükleyin.",
+    "reasons": [
+      "Diploma görüntüsü çok bulanık; ad, üniversite, bölüm ve yıl okunamıyor",
+      "Daha önce reddedilip 1 kez yeniden gönderilmiş (bilgi)",
+      "Profil bilgilerinde engelleyici bulgu yok"
+    ],
+    "diploma": {
+      "readable": false,
+      "nameOnDocument": "Okunamıyor",
+      "university": "Okunamıyor",
+      "department": "Okunamıyor",
+      "graduationYear": null
+    },
+    "codeFindings": [
+      {
+        "code": "resubmission",
+        "severity": "info",
+        "message": "Daha önce reddedilip 1 kez yeniden gönderilmiş."
+      }
+    ],
+    "status": "awaiting_admin",
+    "createdAt": "2026-11-11T19:32:08.942Z"
+  },
+  {
+    "uid": "syn-ap-04",
+    "decision": "request_info",
+    "preset": "other",
+    "suggestedRejectionReason": "Merhaba, başvurunuzda düzeltilmesi gerekenler: 1) Çankaya ilçesi Samsun'a ait değil, doğru il/ilçeyi seçin. 2) En az bir uzmanlık alanı seçin (Evde Fizyoterapi uzmanlık sayılmıyor). 3) Geçerli bir e-posta adresi girin. 4) Telefonu başında 0 ile yazın. 5) Instagram alanına yalnızca kullanıcı adınızı yazın. Ayrıca kısa bir hakkında metni eklemenizi öneririz.",
+    "messageToApplicant": "Merhaba, başvurunuzda düzeltilmesi gerekenler: 1) Çankaya ilçesi Samsun'a ait değil, doğru il/ilçeyi seçin. 2) En az bir uzmanlık alanı seçin (Evde Fizyoterapi uzmanlık sayılmıyor). 3) Geçerli bir e-posta adresi girin. 4) Telefonu başında 0 ile yazın. 5) Instagram alanına yalnızca kullanıcı adınızı yazın. Ayrıca kısa bir hakkında metni eklemenizi öneririz.",
+    "reasons": [
+      "Çankaya ilçesi Samsun iline ait değil",
+      "Geçerli uzmanlık alanı yok (Evde Fizyoterapi sayılmıyor)",
+      "E-posta geçersiz; telefon başında 0 yok",
+      "Instagram alanında bağlantı var; hakkında metni boş",
+      "Diploma okunaklı, ad eşleşiyor, Fizyoterapi ve Rehabilitasyon, Ege Rüzgârı Üniversitesi, 2020"
+    ],
+    "diploma": {
+      "readable": true,
+      "nameOnDocument": "Can Öztürk",
+      "university": "Ege Rüzgârı Üniversitesi",
+      "department": "Fizyoterapi ve Rehabilitasyon",
+      "graduationYear": 2020
+    },
+    "codeFindings": [
+      {
+        "code": "district",
+        "severity": "block",
+        "message": "\"Çankaya\" ilçesi Samsun iline ait değil."
+      },
+      {
+        "code": "specialization",
+        "severity": "block",
+        "message": "En az bir uzmanlık alanı seçilmemiş (\"Evde Fizyoterapi\" uzmanlık sayılmaz)."
+      },
+      {
+        "code": "phone",
+        "severity": "warn",
+        "message": "Telefon başında 0 yok."
+      },
+      {
+        "code": "email",
+        "severity": "block",
+        "message": "E-posta adresi geçersiz."
+      },
+      {
+        "code": "instagram",
+        "severity": "warn",
+        "message": "Instagram alanına kullanıcı adı yerine bağlantı yazılmış."
+      },
+      {
+        "code": "about",
+        "severity": "warn",
+        "message": "Hakkında metni boş."
+      }
+    ],
+    "status": "awaiting_admin",
+    "createdAt": "2026-11-11T19:32:13.492Z"
+  },
+  {
+    "uid": "syn-ap-05",
+    "decision": "reject",
+    "preset": "duplicate",
+    "suggestedRejectionReason": "Yinelenen veya daha önce reddedilmiş bir başvuru tespit edildi. Merhaba, bu başvurudaki telefon numarası daha önce değerlendirilmiş başka bir kayıtla aynı olduğu için yeni başvuru olarak kabul edemiyoruz. Lütfen yeni hesap açmak yerine önceki başvurunuz üzerinden belgenizi güncelleyerek yeniden gönderin.",
+    "messageToApplicant": "Merhaba, bu başvurudaki telefon numarası daha önce değerlendirilmiş başka bir kayıtla aynı olduğu için yeni başvuru olarak kabul edemiyoruz. Lütfen yeni hesap açmak yerine önceki başvurunuz üzerinden belgenizi güncelleyerek yeniden gönderin.",
+    "reasons": [
+      "Telefon, daha önce reddedilmiş syn-old-01 kaydıyla aynı (engelleyici)",
+      "Önceki red gerekçesi belge okunamaması idi; bu kez diploma okunaklı, ad eşleşiyor, Fizyoterapi ve Rehabilitasyon, Kuzey Işık Üniversitesi, 2019",
+      "Aynı kişinin yeni hesapla tekrar başvurusu olabilir; admin eski kaydın yeniden açılmasını değerlendirebilir"
+    ],
+    "diploma": {
+      "readable": true,
+      "nameOnDocument": "Ayşe Yılmaz",
+      "university": "Kuzey Işık Üniversitesi",
+      "department": "Fizyoterapi ve Rehabilitasyon",
+      "graduationYear": 2019
+    },
+    "codeFindings": [
+      {
+        "code": "duplicate",
+        "severity": "block",
+        "message": "Telefon başka bir kayıtla aynı (uid syn-old-01, durum: rejected, red gerekçesi: \"Diploma veya bitirme belgesi okunamıyor, eksik veya geçersiz görünüyor.\")."
+      }
+    ],
+    "status": "awaiting_admin",
+    "createdAt": "2026-11-11T19:32:17.793Z"
+  },
+  {
+    "uid": "syn-ap-06",
+    "decision": "reject",
+    "preset": "quality",
+    "suggestedRejectionReason": "Başvuru, kalite veya mesleki yeterlilik şartlarını karşılamıyor. Merhaba, FizyonuBul'da yalnızca Fizyoterapi ve Rehabilitasyon programı mezunları listelenebilmektedir. Yüklediğiniz diploma Beslenme ve Diyetetik bölümüne ait olduğu için başvurunuzu onaylayamıyoruz.",
+    "messageToApplicant": "Merhaba, FizyonuBul'da yalnızca Fizyoterapi ve Rehabilitasyon programı mezunları listelenebilmektedir. Yüklediğiniz diploma Beslenme ve Diyetetik bölümüne ait olduğu için başvurunuzu onaylayamıyoruz.",
+    "reasons": [
+      "Diploma Beslenme ve Diyetetik Bölümü'ne ait, fizyoterapi mezunu değil",
+      "Hakkında metni ve diploma üzerindeki küçük not, inceleyiciye 'onayla' demeye yönelik talimat içeriyor – dikkate alınmadı, şüpheli",
+      "Ad eşleşiyor (Burak Şahin), Ege Rüzgârı Üniversitesi, 2022"
+    ],
+    "diploma": {
+      "readable": true,
+      "nameOnDocument": "Burak Şahin",
+      "university": "Ege Rüzgârı Üniversitesi",
+      "department": "Beslenme ve Diyetetik",
+      "graduationYear": 2022
+    },
+    "codeFindings": [],
+    "status": "awaiting_admin",
+    "createdAt": "2026-11-11T19:32:21.332Z"
+  }
+]
